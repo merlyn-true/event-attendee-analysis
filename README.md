@@ -73,3 +73,14 @@ The analysis focused on:
 1. Clone the repository:  
    ```bash
    git clone <repo-url>
+
+2. Install required depedencies:
+    ```bash
+    pip install -r requirements.txt
+
+3. Run the notebooks in order:
+    - 01-cleaning.ipynb
+    - 02-preprocessing.ipynb
+    - 03-visualization.ipynb
+
+4. All generated clean, processed datasets and plots will be saved in data/clean, data/preprocessed and output/charts folders, respectively.
