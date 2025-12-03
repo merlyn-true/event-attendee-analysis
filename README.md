@@ -70,7 +70,7 @@ The analysis focused on:
 - **Jupyter Notebook**
 
 ## 🚀 How to Run
-1. Clone the repository:  
+1. Fork and clone the repository:  
    ```bash
    git clone <repo-url>
 
