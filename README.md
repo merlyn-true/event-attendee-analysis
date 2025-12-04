@@ -8,6 +8,11 @@ This project analyzes attendance data from an online conference by combining reg
 - Analyze attendee behavior, including join times, leave times, and time spent in session.
 - Visualize insights related to location, session participation, and engagement duration.
 
+## 📝 Executive Summary
+This analysis reviews attendance patterns, engagement duration, and geographical distribution of session attendees. Most participants were based in Canada, primarily in Ontario, with a small number joining internationally. Engagement levels were strong: many attendees stayed for over 2.5 hours, and the average session time was 107 minutes. Nearly half of participants joined within the first 20 minutes, and a large portion remained until at least the 150-minute mark, indicating consistent interest throughout the session.
+
+---
+
 ## 📂 Data Sources
 - **Eventbrite Registration Data** — 1,487 raw records  
 - **Zoom Attendance Data** — 599 raw records  
@@ -90,15 +95,11 @@ The analysis focused on:
 ### **Raw Data Not Included**
 To protect personal information, the original raw data (Zoom attendance and Eventbrite registration) **is not included** in this repository.
 
-### **Using Synthetic Sample Data**
-We provide **synthetic sample datasets** (`sample_zoom.csv` and `sample_eventbrite.csv`) that mimic the structure, types, and key characteristics of the real data.  
-These datasets allow you to **run the notebooks end-to-end** without exposing personal or sensitive information.
-
 ### **Structuring Your Own Data**
-To use your own data with the notebooks:
+To use your own data with the notebooks, ensure your raw data mimics the following structure, types and characteristics:
 1. **Zoom Attendance Dataset**
    - Columns:
-     - `Attended` (always "Yes")
+     - `Attended`
      - `User Name (Original Name)`
      - `Email`
      - `Join Time` (`YYYY-MM-DD HH:MM:SS AM/PM`)
